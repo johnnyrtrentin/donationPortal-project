@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portal de Animais</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <form method="post" action="/login">
+        <div>
+            <input type="text" name="lUser" id="lgUsername" placeholder="Digite seu usuário" required>
+        </div>
+        <div>
+            <input type="text" name="lPass" id="lgPassword" placeholder="Digite sua senha" required>
+        </div>
+        <div>
+            <button type="submit" id="bt1" value="Submit">Login
+        </div>
+
+        <br><br>
+    </form>
+    
+    <form method="POST" action="/register">
+        <div>
+            <input type="text" name="user" id="username" placeholder="Digite seu usuário" required>
+        </div>
+        <div>
+            <input type="password" name="pass" id="password" placeholder="Digite sua senha" required>
+        </div>
+        <div>
+            <button type="submit" id="bt1" value="Cadastrar">Cadastro
+        </div>
+    </form>
+</body>
+
+</html>
